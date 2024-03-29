@@ -19,3 +19,11 @@ const todo = ref(database, "todolist")
 //     window.Location.href = 'dashboard.html';
 //     console.log("Button Clicked");
 // })
+
+const getstarted = document.getElementById("get-started");
+
+getstarted.addEventListener("click", function(){
+
+    push(todo, "Learn React")
+   // console.log(app);
+})
