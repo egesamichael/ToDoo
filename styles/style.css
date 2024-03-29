@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    user-select: none;
 }
 
 .container {
@@ -25,6 +26,7 @@ body {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .welcome {
@@ -35,4 +37,30 @@ body {
 .welcome-desc {
     font-size: 16px;
     color: slategray;
+}
+.userInputDiv {
+  /*  display: flex; */
+    flex-wrap: wrap;
+    flex-grow: 1;
+    max-width: 350px;
+    flex-direction: row;
+}
+
+.text-input {
+    padding: 10px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+}
+
+.add-todo {
+    padding: 10px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.todos {
+    list-style: none;
+    padding: 0;
 }
